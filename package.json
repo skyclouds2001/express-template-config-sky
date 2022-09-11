@@ -1,0 +1,44 @@
+{
+  "name": "express-config-sky",
+  "version": "0.0.0",
+  "description": "express config of skyclouds2001",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyclouds2001/express-config-sky.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": {
+    "name": "skyclouds2001",
+    "email": "skyclouds2001@163.com",
+    "url": "https://skyclouds2001.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyclouds2001/express-config-sky/issues"
+  },
+  "homepage": "https://github.com/skyclouds2001/express-config-sky#readme",
+  "contributors": [
+    "skyclouds2001"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "os": [
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32",
+    "arm",
+    "mips"
+  ],
+  "private": true
+}
