@@ -2,9 +2,9 @@
   "name": "express-config-sky",
   "version": "0.0.0",
   "description": "express config of skyclouds2001",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "serve": "node src/app.js"
+    "serve": "node app.js"
   },
   "repository": {
     "type": "git",
