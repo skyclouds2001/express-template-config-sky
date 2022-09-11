@@ -5,7 +5,7 @@ const router = require('./routers/index');
 
 const app = express();
 
-app.use(cors);
+app.use(cors());
 
 app.use(router);
 
