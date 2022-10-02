@@ -8,20 +8,24 @@ module.exports = defineConfig({
     node: true,
     commonjs: true,
     'shared-node-browser': true,
-    worker: true
+    worker: true,
   },
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   globals: {},
-  plugins: [],
+  plugins: ['prettier'],
   extends: [
     'eslint:recommended',
     'standard',
-    'plugin:n/recommended'
+    'plugin:n/recommended',
+    'prettier',
+    'plugin:prettier/recommended',
   ],
-  rules: {},
+  rules: {
+    'n/no-unpublished-require': 'off',
+  },
   settings: {},
-  overrides: []
+  overrides: [],
 })

@@ -1,6 +1,3 @@
 module.exports = {
-  "*.{js,ts}": [
-    "npm run eslint",
-    // "npm run prettier"
-  ]
+  '*.{js,ts}': ['npm run eslint', 'npm run prettier'],
 }
