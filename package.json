@@ -4,7 +4,9 @@
   "description": "express config of skyclouds2001",
   "main": "app.js",
   "scripts": {
-    "serve": "node app.js"
+    "serve": "node app.js",
+    "eslint": "eslint --fix",
+    "prettier": "prettier --write"
   },
   "repository": {
     "type": "git",
@@ -57,7 +59,8 @@
     "eslint-config-standard": "^17.0.0",
     "eslint-define-config": "^1.7.0",
     "eslint-plugin-n": "^15.3.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
   },
   "type": "commonjs"
 }
