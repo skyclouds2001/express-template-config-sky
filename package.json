@@ -50,7 +50,10 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "@types/node": "^18.7.16"
+    "@types/node": "^18.7.16",
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-define-config": "^1.7.0"
   },
   "type": "commonjs"
 }
