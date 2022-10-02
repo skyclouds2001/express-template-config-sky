@@ -18,7 +18,8 @@ module.exports = defineConfig({
   plugins: [],
   extends: [
     'eslint:recommended',
-    'standard'
+    'standard',
+    'plugin:n/recommended'
   ],
   rules: {},
   settings: {},
