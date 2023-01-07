@@ -1,7 +1,7 @@
 {
-  "name": "express-config-sky",
+  "name": "express-template-sky",
   "version": "0.0.0",
-  "description": "express config of skyclouds2001",
+  "description": "express template of skyclouds2001",
   "main": "app.js",
   "scripts": {
     "serve": "node app.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyclouds2001/express-config-sky.git"
+    "url": "git+https://github.com/skyclouds2001/Express-Template-Sky.git"
   },
   "keywords": [
     "express"
@@ -22,9 +22,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyclouds2001/express-config-sky/issues"
+    "url": "https://github.com/skyclouds2001/Express-Template-Sky/issues"
   },
-  "homepage": "https://github.com/skyclouds2001/express-config-sky#readme",
+  "homepage": "https://github.com/skyclouds2001/Express-Template-Sky#readme",
   "contributors": [
     "skyclouds2001"
   ],
