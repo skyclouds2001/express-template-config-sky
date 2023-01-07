@@ -16,11 +16,13 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
-app.use(cookieSession({
-  name: 'session',
-  keys: ['%$#^&^%&TSFR#$TRGDRG$%GFDG%^$#%#^GFDGRDHG$#@^Y%'],
-  maxAge: 2 * 24 * 60 * 60 * 1000
-}))
+app.use(
+  cookieSession({
+    name: 'session',
+    keys: ['%$#^&^%&TSFR#$TRGDRG$%GFDG%^$#%#^GFDGRDHG$#@^Y%'],
+    maxAge: 2 * 24 * 60 * 60 * 1000,
+  })
+)
 
 app.use(router)
 
