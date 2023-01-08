@@ -10,16 +10,16 @@ const app = express()
 
 app.use(express.static('public'))
 
-app.use(express.urlencoded({ extended: false }))
-
 app.use(cors())
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
+
 app.use(cookieParser())
 app.use(
   cookieSession({
     name: 'session',
-    keys: ['%$#^&^%&TSFR#$TRGDRG$%GFDG%^$#%#^GFDGRDHG$#@^Y%'],
+    keys: ['sad%aft#kj$ao|is~dj(*)@#!@kla1jk2l@#%$#dea5fda'],
     maxAge: 2 * 24 * 60 * 60 * 1000,
   })
 )
