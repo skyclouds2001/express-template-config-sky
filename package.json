@@ -5,12 +5,12 @@
   "main": "app.js",
   "scripts": {
     "serve": "node app.js",
-    "eslint": "eslint --fix",
-    "prettier": "prettier --write"
+    "eslint": "eslint --fix .",
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyclouds2001/Express-Template-Sky.git"
+    "url": "git+https://github.com/skyclouds2001/express-template-config-sky.git"
   },
   "keywords": [
     "express"
@@ -22,9 +22,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyclouds2001/Express-Template-Sky/issues"
+    "url": "https://github.com/skyclouds2001/express-template-config-sky/issues"
   },
-  "homepage": "https://github.com/skyclouds2001/Express-Template-Sky#readme",
+  "homepage": "https://github.com/skyclouds2001/express-template-config-sky#readme",
   "contributors": [
     "skyclouds2001"
   ],
@@ -59,8 +59,10 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-define-config": "^1.7.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
