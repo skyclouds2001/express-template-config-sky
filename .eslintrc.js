@@ -15,17 +15,14 @@ module.exports = defineConfig({
     sourceType: 'module',
   },
   globals: {},
-  plugins: ['prettier'],
+  plugins: [],
   extends: [
     'eslint:recommended',
     'standard',
     'plugin:n/recommended',
-    'prettier',
     'plugin:prettier/recommended',
   ],
-  rules: {
-    'n/no-unpublished-require': 'off',
-  },
+  rules: {},
   settings: {},
   overrides: [],
 })
